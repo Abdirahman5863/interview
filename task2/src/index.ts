@@ -1,4 +1,4 @@
-import prisma from "./test/data";
+import prisma from "./data";
 
 
 async function main() {
