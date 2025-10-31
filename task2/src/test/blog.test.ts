@@ -16,19 +16,19 @@ afterAll(async () => {
 test('create a user', async () => {
   const user = await prisma.user.create({
     data: {
-      email: 'test@example.com',
-      name: 'Test User'
+      email: 'arman@gmail.com',
+      name: 'Arman Abdi'
     }
   });
 
-  expect(user.name).toBe('Test User');
+  expect(user.name).toBe('Arman Abdi');
 });
 
 test('create a post', async () => {
   const user = await prisma.user.create({
     data: {
-      email: 'john@example.com',
-      name: 'John'
+      email: 'Abdi@gmail.com',
+      name: 'Abdi'
     }
   });
 
@@ -46,8 +46,8 @@ test('create a post', async () => {
 test('create a comment', async () => {
   const user = await prisma.user.create({
     data: {
-      email: 'john@example.com',
-      name: 'John'
+      email: 'Abdi@gmail.com',
+      name: 'Abdi'
     }
   });
 
