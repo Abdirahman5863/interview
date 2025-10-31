@@ -12,7 +12,7 @@ beforeEach(async () => {
 afterAll(async () => {
   await prisma.$disconnect();
 });
-
+ 
 test('create a user', async () => {
   const user = await prisma.user.create({
     data: {
